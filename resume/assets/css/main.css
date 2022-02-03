@@ -142,6 +142,10 @@ input, select, textarea {
 		letter-spacing: 8px;
 	}
 
+	h2 a:hover {
+		background-color: rgba(58, 57, 57, 0.25);
+	  }
+
 	h3 {
 		font-size: 1em;
 		letter-spacing: 5px;
