@@ -50,7 +50,7 @@
 				<footer>
 					<a href="#first" class="button style2 scrolly">Projects</a>
 					<a href="#second" class="button style2 scrolly">Academics</a>
-					<a href="#three" class="button style2 scrolly">Skills</a>
+					<!--<a href="#three" class="button style2 scrolly">Skills</a>-->
 					<a href="#four" class="button style2 scrolly">Contact Info</a>
 				</footer>
 			</section>
@@ -70,8 +70,12 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td><a href="#P0" class="style2">Career Finder</a></td>
-									<td>A reactive website created during my software engineering course using the MERN stack</td>
+									<td><a href="#P0" class="style2">Arkanoid</a></td>
+									<td>A recreation of this classic game written in C++ with the Chili Framework</td>
+								</tr>
+								<tr>
+									<td><a href="#P10" class="style2">Password Generator</a></td>
+									<td>A tool that can be used to generate random passphrases</td>
 								</tr>
 								<tr>
 									<td><a href="#P1" class="style2">Senior Project</a></td>
@@ -82,7 +86,7 @@
 									<td>Implemented system calls to be called from static library functions</td>
 								</tr>							
 								<tr>
-									<td><a href="#P3" class="style2">Android App</a></td>
+									<td><a href="#P3" class="style2">POSIX Binding</a></td>
 									<td>App that utilizes the POSIX library system library procedures</td>
 								</tr>
 								<tr>
@@ -94,16 +98,12 @@
 									<td>Various writeups that demonstrate common penetration testing methodologies</td>
 								</tr>
 								<tr>
-									<td><a href="#P6" class="style2">Windows API Hacks</a></td>
-									<td>Techniques taking advantage of system procedures utilizing the Windows API</td>
-								</tr>
-								<tr>
-									<td><a href="#P7" class="style2">Image Processor</a></td>
-									<td>A TGA image modification tool</td>
-								</tr>
-								<tr>
 									<td><a href="#P8" class="style2">Minesweeper</a></td>
 									<td>Recreation of the popular Minesweeper game, complete with debugging and test benches</td>
+								</tr>
+								<tr>
+									<td><a href="#P9" class="style2">Career Finder</a></td>
+									<td>A reactive website created during my software engineering course using the MERN stack</td>
 								</tr>
 							</tbody>						
 						</table>
@@ -111,25 +111,53 @@
 				</section>
 			</article>
 
-		<!-- Feature 1 -->
+		<!-- Feature 0 -->
 			<article class="container box style3 right">
-				<a href="https://team3-career-finder.herokuapp.com/" id="P0" class="image fit"><img src="images/CF.jpg" alt="" /></a>
+				<a href="https://github.com/joshuamainsmith/Arkanoid" id="P0" class="image fit">
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/Arkanoid.mp4" type="video/mp4"/>
+					</video>
+				</a>
 				<div class="inner">
 					<header>
-						<h2><a href="https://team3-career-finder.herokuapp.com/">Career Finder</a>
+						<h2><a href="https://github.com/joshuamainsmith/Arkanoid">Arkanoid</a>
 						</h2>
 					</header>
-					<p>A web app developed during the Software Engineering course taken at the University of Florida. 
-						Links to the <a href="https://github.com/joshuamainsmith/CEN_3031_Final_Project">GitHub Repo</a> & 
-						<a href="https://www.researchgate.net/publication/341913693_Career_Finder_SRS_Document">documentation</a>. Use admin1/admin1 to login.</p>
+					<p>
+						Break blocks by bouncing the ball off your paddle, wall, and other blocks. Written in C++ and using a minimal 
+						framework, Arkanoid's model update physics and composure frames were created from scratch using OOP techniques.
+					</p>
 						<p><a href="#first" class="style2">Back to Index</a></p>
 				</div>
 			</article>
 
-			<!-- Feature 2 -->
+			<!-- Feature 10 -->
+			<article class="container box style3 left">
+				<a href="https://joshuamainsmith.github.io/PasswordGenerator/#/" id="P10" class="image fit">
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/passgen.mp4" type="video/mp4"/>
+					</video>
+				</a>
+				<div class="inner">
+					<header>
+						<h2><a href="https://joshuamainsmith.github.io/PasswordGenerator/#/">Password Generator</a>
+						</h2>
+					</header>
+					<p>
+						A tool written in Dart with the Flutter framework that helps users generate random word passphrases. 
+						The number of words can currently be inputted, with more complex password generating future in progress.
+					</p>
+					<p><a href="#first" class="style2">Back to Index</a></p>
+				</div>
+			</article>
+
+			<!-- Feature 1 -->
 			<article class="container box style3 left">
 				<a href="https://github.com/joshuamainsmith/Senior_Project" id="P1" class="image fit">
-					<img src="images/LDBPWNER.jpg" alt="" /></a>
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/LDB.mp4" type="video/mp4"/>
+					</video>
+				</a>
 				<div class="inner">
 					<header>
 						<h2><a href="https://github.com/joshuamainsmith/Senior_Project">Senior Project</a>
@@ -142,10 +170,13 @@
 				</div>
 			</article>
 
-			<!-- Feature 3 -->
+			<!-- Feature 2 -->
 			<article class="container box style3 left">
 				<a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P1" id="P2" class="image fit">
-					<img src="images/syscall.jpg" alt="" /></a>
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/p1.mp4" type="video/mp4"/>
+					</video>
+				</a>
 				<div class="inner">
 					<header>
 						<h2><a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P1">System Calls</a>
@@ -160,13 +191,16 @@
 				</div>
 			</article>
 
-			<!-- Feature 4 -->
+			<!-- Feature 3 -->
 			<article class="container box style3 left">
 				<a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P2" id="P3" class="image fit">
-					<img src="images/posix.png" alt="" /></a>
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/p2.mp4" type="video/mp4"/>
+					</video>
+				</a>
 				<div class="inner">
 					<header>
-						<h2><a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P2">Android App with POSIX Implementation</a>
+						<h2><a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P2">Linux App with POSIX Binding Implementation</a>
 						</h2>
 					</header>
 					<p>A C++ language function that calls POSIX system library procedures to read a text
@@ -179,10 +213,13 @@
 				</div>
 			</article>
 
-			<!-- Feature 5 -->
+			<!-- Feature 4 -->
 			<article class="container box style3 left">
 				<a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P3" id="P4" class="image fit">
-					<img src="images/wad.jpg" alt="" /></a>
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/p3.mp4" type="video/mp4"/>
+					</video>
+				</a>
 				<div class="inner">
 					<header>
 						<h2><a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-4600-Operating-Systems/Projects/P3">WAD File Data Parser with FUSE</a>
@@ -196,9 +233,12 @@
 				</div>
 			</article>
 
-		<!-- Feature 6 -->
+		<!-- Feature 5 -->
 			<article class="container box style3 left">
-				<a href="https://github.com/joshuamainsmith/writeups/tree/master/Penetration-Testing-CIS4204" id="P5" class="image fit"><img src="images/WU.jpg" alt="" /></a>
+				<a href="https://github.com/joshuamainsmith/writeups/tree/master/Penetration-Testing-CIS4204" id="P5" class="image fit">
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/security.mp4" type="video/mp4"/>
+					</video>
 				<div class="inner">
 					<header>
 						<h2><a href="https://github.com/joshuamainsmith/writeups/tree/master/Penetration-Testing-CIS4204">Penetration Testing Writeups</a>
@@ -212,7 +252,8 @@
 				</div>
 			</article>
 			
-			<!-- Feature 7 -->
+			<!-- Feature 6 -->
+			<!--
 			<article class="container box style3 right">
 				<a href="https://github.com/joshuamainsmith/Windows_API_Hacking" id="P6" class="image fit"><img src="images/WAPI.jpg" alt="" /></a>
 				<div class="inner">
@@ -225,8 +266,9 @@
 					<p><a href="#first" class="style2">Back to Index</a></p>
 				</div>
 			</article>
-
-			<!-- Feature 8 -->
+			-->
+			<!-- Feature 7 -->
+			<!--
 			<article class="container box style3 left">
 				<a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-3503-Programming-Fundamentals/Project%202%20-%20Image%20Processor" 
 				id="P7" class="image fit"><img src="images/IP.jpg" alt="" /></a>
@@ -242,11 +284,14 @@
 						<p><a href="#first" class="style2">Back to Index</a></p>
 				</div>
 			</article>
-
-			<!-- Feature 5 -->
+			-->
+			<!-- Feature 8 -->
 			<article class="container box style3 right">
-				<a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-3503-Programming-Fundamentals/Project%203%20-%20Minesweeper" 
-				id="P8" class="image fit"><img src="images/MS.jpg" alt="" /></a>
+				<a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-3503-Programming-Fundamentals/Project%203%20-%20Minesweeper" id="P8" class="image fit">
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/Minesweeper.mp4" type="video/mp4"/>
+					</video>
+				</a>
 				<div class="inner">
 					<header>
 						<h2><a href="https://github.com/joshuamainsmith/School-Work/tree/master/COP-3503-Programming-Fundamentals/Project%203%20-%20Minesweeper">
@@ -256,6 +301,25 @@
 					<p>A recreation of the famous Minesweeper game, complete with debugging and test benches. This was built using 
 						<a href="https://www.sfml-dev.org">SFML</a>. 
 						See the <a href="https://github.com/joshuamainsmith/Object_Oriented_Programming/tree/master/Project%203/Release">release</a>.</p>
+						<p><a href="#first" class="style2">Back to Index</a></p>
+				</div>
+			</article>
+
+			<!-- Feature 9 -->
+			<article class="container box style3 right">
+				<a href="https://github.com/joshuamainsmith/CEN_3031_Final_Project" id="P9" class="image fit">
+					<video loop autoplay muted width="100%" height="100%" >
+						<source src="images/CareerFinder.mp4" type="video/mp4"/>
+					</video>
+				</a>
+				<div class="inner">
+					<header>
+						<h2><a href="https://team3-career-finder.herokuapp.com/">Career Finder</a>
+						</h2>
+					</header>
+					<p>A web app developed during the Software Engineering course taken at the University of Florida. 
+						Links to the <a href="https://github.com/joshuamainsmith/CEN_3031_Final_Project">GitHub Repo</a> & 
+						<a href="https://www.researchgate.net/publication/341913693_Career_Finder_SRS_Document">documentation</a>. Use admin1/admin1 to login.</p>
 						<p><a href="#first" class="style2">Back to Index</a></p>
 				</div>
 			</article>
@@ -340,6 +404,7 @@
 		</article>
 		
 		<!-- Skills -->
+		<!--
 		<article id="three" class="container box style2">
 				<header>
 					<h2>Skills</h2>
@@ -361,7 +426,7 @@
 					</div>
 				</div>
 			</article>
-
+		-->
 			<!-- Contact Form -->
 			<!--
 			<article class="container box style3">
